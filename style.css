@@ -1,19 +1,19 @@
 html,
 body,
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
 }
 .Header {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 2rem 2rem auto;
   border: 1rem #;
 }
+.subhead {
+  border: 2rem solid #ffffff;
+}
 .Subheader {
-  border: 1rem;
-  font-size: 3rem;
+  font-size: 4rem;
   display: flex;
-  width: 30%;
+  width: 70%;
 }
