@@ -1,6 +1,8 @@
 html,
 body,
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
 }
@@ -10,10 +12,19 @@ body,
   border: 1rem #;
 }
 .subhead {
-  border: 2rem solid #ffffff;
+  border: 1rem solid #ffffff;
 }
 .Subheader {
-  font-size: 4rem;
+  font-size: 6rem;
   display: flex;
-  width: 70%;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.flex-item {
+  border: 20rem #;
+}
+.Img {
+  width: 20rem;
+  height: 20rem;
 }
