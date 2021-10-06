@@ -5,11 +5,13 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  font-family: "Gemunu Libre", sans-serif;
 }
 .Header {
   font-size: 3rem;
   margin: 2rem 2rem auto;
   border: 1rem #;
+  text-align: center;
 }
 .subhead {
   border: 1rem solid #ffffff;
@@ -22,9 +24,9 @@ body,
   width: 100%;
 }
 .flex-item {
-  border: 20rem #;
+  margin: 10rem;
 }
-.Img {
+.flex-img {
   width: 20rem;
   height: 20rem;
 }
