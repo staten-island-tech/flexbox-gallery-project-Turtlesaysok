@@ -10,11 +10,12 @@ body,
 .Header {
   font-size: 3rem;
   margin: 2rem 2rem auto;
-  border: 1rem #;
+  border: 1rem solid #000000;
   text-align: center;
 }
 .subhead {
-  border: 1rem solid #ffffff;
+  border: 1rem solid #000000;
+  text-align: center;
 }
 .Subheader {
   font-size: 6rem;
@@ -25,8 +26,13 @@ body,
 }
 .flex-item {
   margin: 10rem;
+  justify-content: center;
 }
 .flex-img {
   width: 20rem;
   height: 20rem;
+  text-align: center;
+}
+.flex-paragraph {
+  border: 1rem solid #000000;
 }
