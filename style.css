@@ -8,17 +8,17 @@ body,
   font-family: "Gemunu Libre", sans-serif;
 }
 body {
-  background-color: #6d6d6d;
+  background-color: #696969;
 }
 .Header {
   font-size: 3.5rem;
   color: #ffd700;
   margin: 1.8rem 1.8rem auto;
-  border: 0.2rem solid #6d6d6d;
+  border: 0.2rem solid #696969;
   text-align: center;
 }
 .subhead {
-  border: 1rem solid #6d6d6d;
+  border: 1rem solid #696969;
   text-align: center;
   border-radius: 2.5rem;
   color: #ffd700;
@@ -47,7 +47,7 @@ body {
   text-align: center;
 }
 .flex-paragraph {
-  border: 1rem solid #6d6d6d;
+  border: 1rem solid #696969;
   border-radius: 2.5rem;
   color: #ffd700;
   text-align: center;
