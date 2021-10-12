@@ -33,6 +33,7 @@ body {
 }
 .flex-item {
   margin: 9.8rem;
+  align-items: center;
   justify-content: center;
   border: 0.5rem solid #ffd700;
   border-radius: 2.5rem;
@@ -49,4 +50,5 @@ body {
   border: 1rem solid #6d6d6d;
   border-radius: 2.5rem;
   color: #ffd700;
+  text-align: center;
 }
