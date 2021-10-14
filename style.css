@@ -40,15 +40,28 @@ body {
   box-shadow: 0.5rem 0.5rem 0.5rem;
   display: flex;
   flex-flow: column wrap;
+  transition: all 0.2s;
 }
 .flex-img {
   width: 20rem;
   height: 20rem;
   text-align: center;
+  transition: all 0.2s;
+}
+.flex-img:active {
+  transform: scale(1.5);
+  outline: 0.4rem solid #ffffff;
+  outline-offset: 1rem;
 }
 .flex-paragraph {
   border: 1rem solid #696969;
   border-radius: 2.5rem;
   color: #ffd700;
   text-align: center;
+}
+.flex-item:hover {
+  transform: scale(1.2);
+}
+.flex-item:active {
+  transition: ;
 }
