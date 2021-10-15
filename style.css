@@ -13,8 +13,7 @@ body {
 .Header {
   font-size: 3.5rem;
   color: #ffd700;
-  margin: 1.8rem 1.8rem auto;
-  border: 0.2rem solid #696969;
+  margin: 2rem 2rem 2rem;
   text-align: center;
 }
 .subhead {
@@ -52,6 +51,7 @@ body {
   transform: scale(1.5);
   outline: 0.4rem solid #ffffff;
   outline-offset: 1rem;
+  transform: rotate(0.5turn);
 }
 .flex-paragraph {
   border: 1rem solid #696969;
@@ -60,8 +60,30 @@ body {
   text-align: center;
 }
 .flex-item:hover {
-  transform: scale(1.2);
+  transform: scale(1.2) matrix(1, 2, 3, 4, 5, 6);
 }
-.flex-item:active {
-  transition: ;
+.Header:focus {
+  animation: 3s linear 1s infinite alternate slidein;
+}
+@keyframes example {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(0.25turn);
+  }
+  to {
+    transform: rotate(0.5turn);
+  }
+  to {
+    transform: rotate(0.75turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.header:hover {
+  animation-name: example;
+  animation-duration: 4s;
 }
