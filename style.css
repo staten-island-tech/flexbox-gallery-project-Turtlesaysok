@@ -47,25 +47,36 @@ body {
   text-align: center;
   transition: all 0.2s;
 }
-.flex-img:active {
-  transform: scale(1.5);
-  outline: 0.4rem solid #ffffff;
-  outline-offset: 1rem;
-  transform: rotate(0.5turn);
-}
 .flex-paragraph {
   border: 1rem solid #696969;
   border-radius: 2.5rem;
   color: #ffd700;
   text-align: center;
 }
+@media (max-width: 39rem) and (max-width: 81rem) {
+  .Header {
+    font-size: 1rem;
+  }
+}
+}@media (max-width: 117rem) and (max-width: 145rem) {
+  .flex-item {
+    margin: 20rem;
+    transform: scale(1.25);
+  }
+}
+.flex-img:hover {
+  transform: matrix(1, 2, 3, 4, 5, 6) rotate(0.5turn);
+  outline: 0.4rem solid #ffffff;
+  outline-offset: 1rem;
+}
+
 .flex-item:hover {
-  transform: scale(1.2) matrix(1, 2, 3, 4, 5, 6);
+  transform: scale(1.15);
 }
 .Header:focus {
   animation: 3s linear 1s infinite alternate slidein;
 }
-@keyframes example {
+@keyframes spin {
   from {
     transform: rotate(0turn);
   }
@@ -84,6 +95,8 @@ body {
 }
 
 .header:hover {
-  animation-name: example;
+  animation-name: spin;
   animation-duration: 4s;
+}
+.flex-paragraph:hover {
 }
