@@ -22,6 +22,7 @@ body {
   border-radius: 2.5rem;
   color: #ffd700;
   font-size: 3.25rem;
+  transition: all 0.2s;
 }
 .Subheader {
   font-size: 6.5rem;
@@ -120,5 +121,5 @@ body {
   color: #ffffff;
 }
 .subhead:hover {
-  color: #ffffff;
+  transform: skew(10deg, 10deg);
 }
